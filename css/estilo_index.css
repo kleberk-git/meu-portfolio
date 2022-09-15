@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: #292c2f;
+    font-family: 'Courier New', Courier, monospace;
+}
+.perfil-topo{
+    width: 100%;
+    height: 620px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: linear-gradient(119deg, rgba(2,0,36,1) 0%, rgba(4,158,218,1) 62%, rgba(0,212,255,1) 100%);
+    border-radius: 0px 0px 15px 15px;
+}
+
+.imagem{
+    width: 400px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("../img/satelite.svg");
+    background-size: 100%;
+    color: #fff;
+    border-radius: 0px 30px 0px;
+}
+
+.btn1{
+    width: 100px;
+}
+
+.imagem img{
+    width: 200px;
+    height: 200px;
+    margin: 8px;
+    border-radius: 50%;
+    border: 5px solid greenyellow;
+}
+.info-perfil{
+    width: 500px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+  
+  
+}
+.area1{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+
+.btn1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    width: 100%;
+    height: 100%;
+}
+.btn1 button{
+    width: 150px;
+    height: 35px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; 
+    background-color: greenyellow;
+}
+
+.btn1 button:hover{
+    background-color:  rgb(111, 180, 6);
+    color: #fff;
+    box-shadow: 5px 5px 5px black;
+    border: 2px solid #fff;
+}
+.area2{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+}
+.icones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.icones img{
+    margin: 5px;
+    width: 30px;
+    cursor: pointer;
+    
+}
+.icones img:hover{
+    width: 35px;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+.centralizar-texto{
+    display: flex;
+    justify-content: flex-start;
+    align-items: left;
+    flex-direction: column;
+    width: 350px;
+    height: 100%;
+}
+
+.perfil-meio{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    background-color: #292c2f;
+}
+.titulo-area{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+.titulo-meio{
+    width: 100%;
+    text-align: center;
+   
+}
+.mover{
+    width: 100%;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bola-online{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: greenyellow;
+}
+.area-cards{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.area{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 650px;
+    height: 100%;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 140px;
+    margin: 5px;
+    background-color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.card:hover{
+    box-shadow: 5px 5px 5px rgb(2, 247, 214);
+}
+.card img:hover{
+    width: 80px;
+}
+.card img{
+    width: 50px;
+}
+.area-cards-redondo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.area-redondo{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 650px;
+}
+.card-redondo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 110px;
+    height: 110px;
+    margin: 5px;
+    border: 2px solid greenyellow;
+    border-radius:50%;
+    cursor: pointer;
+}
+.card-redondo:hover{
+    box-shadow: 5px 5px 5px rgb(2, 247, 214);
+}
+.card-redondo img{
+    width: 50px;
+}
+
+.card-redondo p{
+    font-size: 10px;
+    color: #fff;
+    text-align: center;
+}
+
+#windows{
+    background-color: #2995cc;
+}
+
+
+.perfil-meio-meio{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    background: linear-gradient(119deg, rgba(2,0,36,1) 0%, rgba(4,158,218,1) 62%, rgba(0,212,255,1) 100%);
+}
+.titulo-projetos{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    
+}
+.titulo-meio{
+    width: 100%;
+    text-align: center;
+}
+.area-cards-projetos{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.area-projetos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    margin: 50px;
+}
+.card-projetos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer; 
+}
+
+.texto-projetos{
+    margin: 5px;
+    color: #fff;
+    text-align: center;
+}
+.imagem-projeto{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.card-projetos img{
+    width: 60%;
+    height:70%;
+    border-radius: 5px;
+    border: 5px solid #fff;
+}
+.card-projetos img:hover{
+    box-shadow: 5px 5px 5px rgb(0, 12, 10);
+}
+
+.roda-pé{
+    width: 100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
