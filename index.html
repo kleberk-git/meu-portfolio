@@ -21,7 +21,7 @@
                         <h2>KLEBER BELO DA SILVA</h2>
                         <p>DESENVOLVEDOR FULLSTACK</p>
                         <div class="btn1">
-                            <button title="Baixar">MEU CURRÍCULO</button>
+                            <a href="img/Kleber Belo - ATUALIZADO.pdf" download><button title="Baixar">MEU CURRÍCULO</button></a>
                             <button>CONTATO</button>
                         </div>
                     </div>
@@ -52,49 +52,53 @@
                     <div id="linux" class="card-redondo" title="Linux, Desktop e Servidores.">
                         <img src="img/linux.svg" alt="Linux">
                     </div>
-                    <div class="card-redondo">
+                    <div id="manutencao" class="card-redondo">
                         <img src="img/manutecao.svg" alt="Manutenção" title="Manutenção de Computadores.">
                     </div>
-                    <div class="card-redondo">
+                    <div id="reparo" class="card-redondo">
                         <img src="img/reparo.svg" alt="Reparo e Serviços" title="Hadwares e Softwares">
                     </div>
-                    <div class="card-redondo">
+                    <div id="suporte" class="card-redondo">
                         <img src="img/suporte.svg" alt="Suporte ao Usuário" title="Suporte ao Usuário">
                     </div>
                 </div>
             </div>
-
+            <div class="texto-curto">
+                <div class="caixa-texto-curto">
+                    <a name="exibir-texto"><p id="texto-curto">* Status *</p></a>
+                </div>
+            </div>
            <div class="area-cards">
                 <div class="area">
-                    <div class="card" title="[Conhecimento em HTML]: 100%">
-                        <img src="img/html5.svg" alt="HTML5">
+                    <div class="card" title="[Conhecimento em HTML]: 100%" onmouseover="mostrar_html()">
+                        <img id="html" src="img/html5.svg" alt="HTML5" >
                     </div>
-                    <div class="card" title="[Conhecimento em CSS]: 100%">
-                        <img src="img/css.svg" alt="CSS3">
+                    <div class="card" title="[Conhecimento em CSS]: 100%" onmouseover="mostrar_css()" >
+                        <img id="css" src="img/css.svg" alt="CSS3">
                     </div>
-                    <div class="card" title="[Conhecimento em JS]: 80%">
-                        <img src="img/javascript.svg" alt="JAVASCRIPT">
+                    <div class="card" title="[Conhecimento em JS]: 80%" onmouseover="mostrar_js()">
+                        <a href="#exibir-texto"><img src="img/javascript.svg" alt="JAVASCRIPT"></a>
                     </div>
-                    <div class="card" title="[Conhecimento em PHP]: 80%">
-                        <img src="img/php.svg" alt="PHP">
+                    <div class="card" title="[Conhecimento em PHP]: 80%" onmouseover="mostrar_php()">
+                        <a href="#exibir-texto"><img src="img/php.svg" alt="PHP"></a>
                     </div>
-                    <div class="card" title="[Conhecimento em MYSQL]: 95%">
-                        <img src="img/mysql.svg" alt="MYSQL">
+                    <div class="card" title="[Conhecimento em MYSQL]: 95%" onmouseover="mostrar_mysql()">
+                        <a href="#exibir-texto"><img src="img/mysql.svg" alt="MYSQL"></a>
                     </div>
-                    <div class="card" title="[Conhecimento em SQL]: 80%">
-                        <img src="img/sql.svg" alt="SQL">
+                    <div class="card" title="[Conhecimento em SQL]: 80%" onmouseover="mostrar_sql()">
+                        <a href="#exibir-texto"><img src="img/sql.svg" alt="SQL"></a>
                     </div>
-                    <div class="card" title="[Conhecimento em PYTHON]: 80%">
-                        <img src="img/python (1).svg" alt="PYTHON">
+                    <div class="card" title="[Conhecimento em PYTHON]: 80%" onmouseover="mostrar_python()">
+                        <a href="#exibir-texto"><img src="img/python (1).svg" alt="PYTHON"></a>
                     </div>
-                    <div class="card" title="[Conhecimento em C: 80%">
-                        <img src="img/c.svg" alt="C">
+                    <div class="card" title="[Conhecimento em C: 80%" onmouseover="mostrar_c()">
+                        <a href="#exibir-texto"><img src="img/c.svg" alt="C"></a>
                     </div>
-                    <div class="card" title="[Conhecimento em C++]: 80%">
-                        <img src="img/c++.svg" alt="C++">
+                    <div class="card" title="[Conhecimento em C++]: 80%" onmouseover="mostrar_ccc()">
+                        <a href="#exibir-texto"><img src="img/c++.svg" alt="C++"></a>
                     </div>
-                    <div class="card" title="[Conhecimento em DELPHI]: 80%">
-                        <img src="img/delphi.svg" alt="DELPHI">
+                   <div class="card" title="[Conhecimento em DELPHI]: 80%" onmouseover="mostrar_delphi()">
+                   <a href="#exibir-texto"><img src="img/delphi.svg" alt="DELPHI"></a>
                     </div>
                 </div>
             </div>
