@@ -122,24 +122,28 @@ body{
     width: 100%;
     height: 100%;
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     background-color: #292c2f;
 }
 .titulo-area{
     width: 100%;
-    height: 100px;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     color: #fff;
+   
 }
 .titulo-meio{
-    width: 100%;
-    text-align: center;
-   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 100px;
+    
 }
 .mover{
     width: 100%;
@@ -157,6 +161,7 @@ body{
 .area-cards{
     width: 100%;
     display: flex;
+    margin: 10px;
     justify-content: center;
     align-items: center;
 }
@@ -168,10 +173,29 @@ body{
     width: 650px;
     height: 100%;
 }
+.texto-curto{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 100%;
+    height:100%;
+    color: #fff;
+    
+}
+.caixa-texto-curto{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    text-align: justify;
+    width: 400px;
+    height: 100%;
+ 
+}
 .card{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     width: 140px;
     height: 140px;
     margin: 5px;
@@ -182,7 +206,7 @@ body{
 .card:hover{
     box-shadow: 5px 5px 5px rgb(2, 247, 214);
 }
-.card img:hover{
+.card:hover img{
     width: 80px;
 }
 .card img{
@@ -190,25 +214,22 @@ body{
 }
 .area-cards-redondo{
     width: 100%;
+    height: 220px;
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 .area-redondo{
     display: flex;
     justify-content: center;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    width: 650px;
+    align-items: center;
+    flex-wrap: wrap; 
 }
 .card-redondo{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 110px;
-    height: 110px;
     margin: 5px;
     border: 2px solid greenyellow;
     border-radius:50%;
@@ -220,46 +241,38 @@ body{
 .card-redondo img{
     width: 50px;
 }
-
-.card-redondo p{
-    font-size: 10px;
-    color: #fff;
-    text-align: center;
-}
-
 #windows{
     background-color: #2995cc;
 }
-
-
 .perfil-meio-meio{
     width: 100%;
     height: 100%;
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     background: linear-gradient(119deg, rgba(2,0,36,1) 0%, rgba(4,158,218,1) 62%, rgba(0,212,255,1) 100%);
 }
 .titulo-projetos{
     width: 100%;
-    height: 100px;
+    height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #fff;
-    
 }
 .titulo-meio{
-    width: 100%;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:100%;
 }
 .area-cards-projetos{
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 .area-projetos{
     display: flex;
