@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    
 }
 body{
     background-color: #292c2f;
@@ -17,7 +16,6 @@ body{
     background: linear-gradient(119deg, rgba(2,0,36,1) 0%, rgba(4,158,218,1) 62%, rgba(0,212,255,1) 100%);
     border-radius: 0px 0px 15px 15px;
 }
-
 .imagem{
     width: 400px;
     height: 300px;
@@ -30,11 +28,9 @@ body{
     color: #fff;
     border-radius: 0px 30px 0px;
 }
-
 .btn1{
     width: 100px;
 }
-
 .imagem img{
     width: 200px;
     height: 200px;
@@ -50,8 +46,6 @@ body{
     align-items: center;
     flex-direction: column;
     color: #fff;
-  
-  
 }
 .area1{
     width: 100%;
@@ -61,7 +55,6 @@ body{
     align-items: center;
     flex-direction: column; 
 }
-
 .btn1{
     display: flex;
     justify-content: center;
@@ -79,7 +72,6 @@ body{
     cursor: pointer; 
     background-color: greenyellow;
 }
-
 .btn1 button:hover{
     background-color:  rgb(111, 180, 6);
     color: #fff;
@@ -102,8 +94,7 @@ body{
 .icones img{
     margin: 5px;
     width: 30px;
-    cursor: pointer;
-    
+    cursor: pointer; 
 }
 .icones img:hover{
     width: 35px;
@@ -117,7 +108,6 @@ body{
     width: 350px;
     height: 100%;
 }
-
 .perfil-meio{
     width: 100%;
     height: 100%;
@@ -128,22 +118,20 @@ body{
     background-color: #292c2f;
 }
 .titulo-area{
-    width: 100%;
+    width:100%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     color: #fff;
-   
 }
 .titulo-meio{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 300px;
-    height: 100px;
-    
+    width: 200px;
+    height: 50px;
 }
 .mover{
     width: 100%;
@@ -178,9 +166,8 @@ body{
     justify-content: center;
     align-items:center;
     width: 100%;
-    height:100%;
-    color: #fff;
-    
+    height:100px;
+    color: #fff;  
 }
 .caixa-texto-curto{
     display: flex;
@@ -189,7 +176,7 @@ body{
     text-align: justify;
     width: 400px;
     height: 100%;
- 
+    margin: 10px;
 }
 .card{
     display: flex;
@@ -214,7 +201,7 @@ body{
 }
 .area-cards-redondo{
     width: 100%;
-    height: 220px;
+    height: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -239,7 +226,7 @@ body{
     box-shadow: 5px 5px 5px rgb(2, 247, 214);
 }
 .card-redondo img{
-    width: 50px;
+    width: 40px;
 }
 #windows{
     background-color: #2995cc;
@@ -293,7 +280,6 @@ body{
     border-radius: 5px;
     cursor: pointer; 
 }
-
 .texto-projetos{
     margin: 5px;
     color: #fff;
@@ -316,7 +302,6 @@ body{
 .card-projetos img:hover{
     box-shadow: 5px 5px 5px rgb(0, 12, 10);
 }
-
 .roda-pé{
     width: 100%;
     height:100%;
