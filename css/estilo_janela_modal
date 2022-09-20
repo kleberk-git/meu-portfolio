@@ -1,0 +1,190 @@
+.area-modal-windows{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: justify;
+    height: 350px;
+    width: 100%;
+}
+.area-modal-windows p{
+    margin: 15px;
+}
+.modal-windows {
+    width: 100%;
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgba(0,0,0,0.8);
+    z-index: 99999;
+    opacity:0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+    color: #fff;
+  }
+  .modal-windows:target {
+    opacity: 1;
+    pointer-events: auto;
+  }
+  .fechar {
+    position: absolute;
+    width: 30px;
+    right: 10px;
+    top: 10px;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 5px;
+    background: #ff4545;
+    border-radius: 50%;
+    font-size: 16px;
+    color: #8d0000;
+  }
+  .fechar:hover{
+    color: #fff;
+  }
+  .area-modal-linux{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
+    height: 350px;
+    width: 100%;
+}
+.area-modal-linux p{
+    margin: 15px;
+}
+.modal-linux {
+    width: 100%;
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgba(0,0,0,0.8);
+    z-index: 99999;
+    opacity:0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+    color: #fff;
+  }
+  .modal-linux:target {
+    opacity: 1;
+    pointer-events: auto;
+  }
+  .area-modal-manutencao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
+    height: 350px;
+    width: 100%;
+}
+.area-modal-manutencao p{
+    margin: 15px;
+}
+.modal-manutencao {
+    width: 100%;
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgba(0,0,0,0.8);
+    z-index: 99999;
+    opacity:0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+    color: #fff;
+  }
+  .modal-manutencao:target {
+    opacity: 1;
+    pointer-events: auto;
+  }
+   .area-modal-linux{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
+    height: 350px;
+    width: 100%;
+}
+.area-modal-linux p{
+    margin: 15px;
+}
+.modal-linux {
+    width: 100%;
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgba(0,0,0,0.8);
+    z-index: 99999;
+    opacity:0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+    color: #fff;
+  }
+  .modal-linux:target {
+    opacity: 1;
+    pointer-events: auto;
+  }
+  .area-modal-reparo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
+    height: 350px;
+    width: 100%;
+}
+.area-modal-reparo p{
+    margin: 15px;
+}
+.modal-reparo{
+    width: 100%;
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgba(0,0,0,0.8);
+    z-index: 99999;
+    opacity:0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+    color: #fff;
+  }
+  .modal-reparo:target {
+    opacity: 1;
+    pointer-events: auto;
+  }
+  .area-modal-suporte{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
+    height: 350px;
+    width: 100%;
+}
+.area-modal-suporte p{
+    margin: 15px;
+}
+.modal-suporte{
+    width: 100%;
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgba(0,0,0,0.8);
+    z-index: 99999;
+    opacity:0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+    color: #fff;
+  }
+  .modal-suporte:target {
+    opacity: 1;
+    pointer-events: auto;
+  }
