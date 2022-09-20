@@ -8,9 +8,59 @@
     <link rel='stylesheet' type='text/css' media='screen' href='css/estilo_index.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='css/estilo_footer.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='css/medias_queries.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/estilo_janela_modal.css'>
     <script src='js/script.js'></script>
 </head>
 <body>
+    <div id="abrirModalWindows" class="modal-windows">
+        <a href="#fechar" title="Fechar" class="fechar">x</a>
+        <div class="area-modal-windows">
+            <h2>Windows</h2><br>
+            <img src="img/windows.svg" alt="Windows" style="width:60px;">
+            <p>Meu primeiro contato com sistema operacional foi o bom e velho Windows XP. ❤️<br>
+            Hoje sou apto a trabalhar com todas versões do Windows Desktop e ou Servidores.</p>
+         </div>
+      </div>
+
+      <div id="abrirModalLinux" class="modal-linux">
+        <a href="#fechar" title="Fechar" class="fechar">x</a>
+        <div class="area-modal-linux">
+            <h2>Linux</h2><br>
+            <img src="img/linux.svg" alt="Linux" style="width:60px;">
+            <p>Quando me apronfundei em programação me tornei um entusiata Linux.<br>
+            Hoje tenho o Ubuntu como meu favorito, mas estou apto a trabalhar com qualquer versão Linux Desktop e ou Servidores.</p>
+         </div>
+      </div>
+
+      <div id="abrirModalManuntecao" class="modal-manutencao">
+        <a href="#fechar" title="Fechar" class="fechar">x</a>
+        <div class="area-modal-manutencao">
+            <h2>Manutenção e Serviços</h2><br>
+            <img src="img/manutecao.svg" alt="Manutenção e Serviços" style="width:60px;">
+            <p>Sou profissional da categoria Assistência Técnica, e faço serviços relacionados:<br>Celular, Computador desktop, Notebooks e Laptops, Tablet, Impressora, ...</p>
+         </div>
+      </div>
+
+      <div id="abrirModalReparo" class="modal-reparo">
+        <a href="#fechar" title="Fechar" class="fechar">x</a>
+        <div class="area-modal-reparo">
+            <h2>Hadwares e Softwares</h2><br>
+            <img src="img/reparo.svg" alt="Hadwares e Softwares" style="width:60px;">
+            <p>Desenvolvimento de Sistemas a parti de projetos e outras coisas mais que vier na cabeça ☕.<br>
+            Recuperação de Hadwares e dados. </p>
+         </div>
+      </div>
+
+      <div id="abrirModalSuporte" class="modal-suporte">
+        <a href="#fechar" title="Fechar" class="fechar">x</a>
+        <div class="area-modal-suporte">
+            <h2>Suporte | PRESENCIAL e ou REMOTO</h2><br>
+            <img src="img/suporte.svg" alt="Suporte ao Usuário" style="width:60px;">
+            <p>* Suporte ao Cliente *<br><br>
+            Hoje, amanhã e sempre!.</p>
+         </div>
+      </div>
+
         <div class="perfil-topo">
                 <div class="imagem">
                     <img src="img/eu.jpg" alt="Foto usuário">
@@ -22,12 +72,12 @@
                         <p>DESENVOLVEDOR FULLSTACK</p>
                         <div class="btn1">
                             <a href="img/Kleber Belo - ATUALIZADO.pdf" download><button title="Baixar">MEU CURRÍCULO</button></a>
-                            <button>CONTATO</button>
+                            <a href="https://api.whatsapp.com/send?phone=5571983619345"><button title="Me liga! 😎">CONTATO</button></a>
                         </div>
                     </div>
                     <div class="area2">
                         <div class="centralizar-texto">
-                            <p>[Situação]: Formado em Análise e Desenvolvimento de Sistemas</p><br>
+                            <p>[Situação]: Formando em Análise e Desenvolvimento de Sistemas</p><br>
                             <p id="texto" title="Enviar e-mail">[E-mail]:<a href="mailto:klek58@hotmail.com?subject=Assunto&body=Digite sua mensagem">kleberk58@hotmail.com</p>
                             <div class="icones">
                                 <a href="https://www.linkedin.com/in/kleber-belo-da-silva-1a693a224/"> <img src="img/linkedin.svg" title="Linkedin" alt="linkedin"></a>
@@ -38,31 +88,33 @@
                     </div>
                 </div>
         </div>
+
         <div class="titulo-area">
             <div class="titulo-meio">
-                <p>Área de conhecimentos em linguagens de programação e T.I </p>
+                <p>Área de conhecimentos em linguagens de programação e T.I</p>
             </div>
         </div>
         <div class="perfil-meio">  
             <div class="area-cards-redondo">
                 <div class="area-redondo">
-                    <div id="windows" class="card-redondo" title="Windows, Desktop e Servidores.">
-                        <img src="img/windows.svg" alt="Windows">
+                    <div id="windows" class="card-redondo" title="Windows, Desktop e Servidores." onclick="funcao1()">
+                       <a href="#abrirModalWindows"> <img src="img/windows.svg" alt="Windows"></a>
                     </div>
                     <div id="linux" class="card-redondo" title="Linux, Desktop e Servidores.">
-                        <img src="img/linux.svg" alt="Linux">
+                        <a href="#abrirModalLinux"><img src="img/linux.svg" alt="Linux"></a>
                     </div>
                     <div id="manutencao" class="card-redondo">
-                        <img src="img/manutecao.svg" alt="Manutenção" title="Manutenção de Computadores.">
+                        <a href="#abrirModalManuntecao"><img src="img/manutecao.svg" alt="Manutenção" title="Manutenção de Computadores."></a>
                     </div>
                     <div id="reparo" class="card-redondo">
-                        <img src="img/reparo.svg" alt="Reparo e Serviços" title="Hadwares e Softwares">
+                        <a href="#abrirModalReparo"><img src="img/reparo.svg" alt="Reparo e Serviços" title="Hadwares e Softwares"></a> 
                     </div>
                     <div id="suporte" class="card-redondo">
-                        <img src="img/suporte.svg" alt="Suporte ao Usuário" title="Suporte ao Usuário">
+                        <a href="#abrirModalSuporte"><img src="img/suporte.svg" alt="Suporte ao Usuário" title="Suporte ao Usuário"></a> 
                     </div>
                 </div>
             </div>
+
             <div class="texto-curto">
                 <div class="caixa-texto-curto">
                     <a name="exibir-texto"><p id="texto-curto">* Status *</p></a>
@@ -145,6 +197,7 @@
                 </div>
             </div>
         </div>
+
         <div class="roda-pé">
             <footer class="footer-distributed">
                 <div class="footer-right">
