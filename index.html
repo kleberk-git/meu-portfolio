@@ -3,50 +3,214 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Lista de Tarefas em HTML, CSS E JS</title>
+    <title>Bem-Vindo(a), ao meu portfólio!</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='css/estilo_index.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/estilo_footer.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/medias_queries.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/estilo_janela_modal.css'>
+    <script src='js/script.js'></script>
 </head>
 <body>
-    <div class="btn-container">
-        <button id="cor1" title="Escurecer a tela...">🌙</button>
-        <button id="cor2" title="Desfazer">🔙</button>
-        <a href="programas/Leitor_Texto.exe"><button title="Baixar conversor de Imagem para Texto">Leitor de Texto</button></a>
-        <a href="programas/ShareX-14.1.0-setup.exe"><button title="Baixar Ferramenta de Captura">Ferr. Captura</button></a>
-       <a href="https://sistema.soc.com.br/WebSoc/" target="_blank"><button id="soc"  title="Abrir o sistema SOC | S+">SOC | S+</button></a>
-    </div>
-    <div class="container">
-        <div class="area-titulo">
-            <div class="centralizar-area-titulo">
-                <h1>Bem-vindo(a), a sua lista de anexos!</h1>
-                <p class="sub-titulo" id="esconder">Vamos começar, digite aqui o nome da empresa que deseja lembrar:</p>
+    <div id="abrirModalWindows" class="modal-windows">
+        <a href="#fechar" title="Fechar" class="fechar">x</a>
+        <div class="area-modal-windows">
+            <h2>Windows</h2><br>
+            <img src="img/windows.svg" alt="Windows" style="width:60px;">
+            <p>Meu primeiro contato com sistema operacional foi o bom e velho Windows XP. ❤️<br>
+            Hoje sou apto a trabalhar com todas versões do Windows Desktop e ou Servidores.</p>
+         </div>
+      </div>
+
+      <div id="abrirModalLinux" class="modal-linux">
+        <a href="#fechar" title="Fechar" class="fechar">x</a>
+        <div class="area-modal-linux">
+            <h2>Linux</h2><br>
+            <img src="img/linux.svg" alt="Linux" style="width:60px;">
+            <p>Quando me apronfundei em programação me tornei um entusiata Linux.<br>
+            Hoje tenho o Ubuntu como meu favorito, mas estou apto a trabalhar com qualquer versão Linux Desktop e ou Servidores.</p>
+         </div>
+      </div>
+
+      <div id="abrirModalManuntecao" class="modal-manutencao">
+        <a href="#fechar" title="Fechar" class="fechar">x</a>
+        <div class="area-modal-manutencao">
+            <h2>Manutenção e Serviços</h2><br>
+            <img src="img/manutecao.svg" alt="Manutenção e Serviços" style="width:60px;">
+            <p>Sou profissional da categoria Assistência Técnica, e faço serviços relacionados:<br>Celular, Computador desktop, Notebooks e Laptops, Tablet, Impressora, ...</p>
+         </div>
+      </div>
+
+      <div id="abrirModalReparo" class="modal-reparo">
+        <a href="#fechar" title="Fechar" class="fechar">x</a>
+        <div class="area-modal-reparo">
+            <h2>Hadwares e Softwares</h2><br>
+            <img src="img/reparo.svg" alt="Hadwares e Softwares" style="width:60px;">
+            <p>Desenvolvimento de Sistemas a parti de projetos e outras coisas mais que vier na cabeça ☕.<br>
+            Recuperação de Hadwares e dados. </p>
+         </div>
+      </div>
+
+      <div id="abrirModalSuporte" class="modal-suporte">
+        <a href="#fechar" title="Fechar" class="fechar">x</a>
+        <div class="area-modal-suporte">
+            <h2>Suporte | PRESENCIAL e ou REMOTO</h2><br>
+            <img src="img/suporte.svg" alt="Suporte ao Usuário" style="width:60px;">
+            <p>* Suporte ao Cliente *<br><br>
+            Hoje, amanhã e sempre!.</p>
+         </div>
+      </div>
+
+        <div class="perfil-topo">
+                <div class="imagem">
+                    <img src="img/eu.jpg" alt="Foto usuário">
+                    <p>Online</p>
+                </div>
+                <div class="info-perfil">
+                    <div class="area1">
+                        <h2>KLEBER BELO DA SILVA</h2>
+                        <p>DESENVOLVEDOR FULLSTACK</p>
+                        <div class="btn1">
+                            <a href="img/Kleber Belo - ATUALIZADO.pdf" download><button title="Baixar">MEU CURRÍCULO</button></a>
+                            <a href="https://api.whatsapp.com/send?phone=5571983619345"><button title="Me liga! 😎">CONTATO</button></a>
+                        </div>
+                    </div>
+                    <div class="area2">
+                        <div class="centralizar-texto">
+                            <p>[Situação]: Formando em Análise e Desenvolvimento de Sistemas</p><br>
+                            <p id="texto" title="Enviar e-mail">[E-mail]:<a href="mailto:klek58@hotmail.com?subject=Assunto&body=Digite sua mensagem">kleberk58@hotmail.com</p>
+                            <div class="icones">
+                                <a href="https://www.linkedin.com/in/kleber-belo-da-silva-1a693a224/"> <img src="img/linkedin.svg" title="Linkedin" alt="linkedin"></a>
+                                <a href="https://github.com/kleberk-git"><img src="img/github.svg" title="GitHub" alt="GitHub"></a>
+                                <a href="https://api.whatsapp.com/send?phone=5571983619345"><img src="img/whatsapp.svg" title="WhatsApp" alt="Whatsapp"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+        <div class="titulo-area">
+            <div class="titulo-meio">
+                <p>Área de conhecimentos em linguagens de programação e T.I</p>
             </div>
         </div>
-        <form name="form_main">
-            <div class="area-entrada">
-                <div class="area-entrada-dados">
-                    <div class="centralizar-area-entrada">
-                    <input class="texto" type="text" name="task" id="task"  placeholder="Digite o nome da Empresa..." />
-                    <button id="submit" type="button" onclick="adicionar()" >OK</button>
-                     <input class="texto" type="text" value="" id="task1" placeholder="Digite o nome do funcionário..." />
-                     <button id="submit1" type="button" onclick="adicionar1()" >Adicionar</button>
+        <div class="perfil-meio">  
+            <div class="area-cards-redondo">
+                <div class="area-redondo">
+                    <div id="windows" class="card-redondo" title="Windows, Desktop e Servidores." onclick="funcao1()">
+                       <a href="#abrirModalWindows"> <img src="img/windows.svg" alt="Windows"></a>
+                    </div>
+                    <div id="linux" class="card-redondo" title="Linux, Desktop e Servidores.">
+                        <a href="#abrirModalLinux"><img src="img/linux.svg" alt="Linux"></a>
+                    </div>
+                    <div id="manutencao" class="card-redondo">
+                        <a href="#abrirModalManuntecao"><img src="img/manutecao.svg" alt="Manutenção" title="Manutenção de Computadores."></a>
+                    </div>
+                    <div id="reparo" class="card-redondo">
+                        <a href="#abrirModalReparo"><img src="img/reparo.svg" alt="Reparo e Serviços" title="Hadwares e Softwares"></a> 
+                    </div>
+                    <div id="suporte" class="card-redondo">
+                        <a href="#abrirModalSuporte"><img src="img/suporte.svg" alt="Suporte ao Usuário" title="Suporte ao Usuário"></a> 
                     </div>
                 </div>
             </div>
-            <div class="area-texto">
-                <div id="area-texto" class="centralizar-area-texto">
-                    <legend>* Anotações *</legend>
-                        <ol></ol>  
+
+            <div class="texto-curto">
+                <div class="caixa-texto-curto">
+                    <a name="exibir-texto"><p id="texto-curto">* Status *</p></a>
                 </div>
             </div>
-          </form>
-    </div>
+           <div class="area-cards">
+                <div class="area">
+                    <div class="card" title="[Conhecimento em HTML]: 100%" onmouseover="mostrar_html()">
+                        <img id="html" src="img/html5.svg" alt="HTML5" >
+                    </div>
+                    <div class="card" title="[Conhecimento em CSS]: 100%" onmouseover="mostrar_css()" >
+                        <img id="css" src="img/css.svg" alt="CSS3">
+                    </div>
+                    <div class="card" title="[Conhecimento em JS]: 80%" onmouseover="mostrar_js()">
+                        <a href="#exibir-texto"><img src="img/javascript.svg" alt="JAVASCRIPT"></a>
+                    </div>
+                    <div class="card" title="[Conhecimento em PHP]: 80%" onmouseover="mostrar_php()">
+                        <a href="#exibir-texto"><img src="img/php.svg" alt="PHP"></a>
+                    </div>
+                    <div class="card" title="[Conhecimento em MYSQL]: 95%" onmouseover="mostrar_mysql()">
+                        <a href="#exibir-texto"><img src="img/mysql.svg" alt="MYSQL"></a>
+                    </div>
+                    <div class="card" title="[Conhecimento em SQL]: 80%" onmouseover="mostrar_sql()">
+                        <a href="#exibir-texto"><img src="img/sql.svg" alt="SQL"></a>
+                    </div>
+                    <div class="card" title="[Conhecimento em PYTHON]: 80%" onmouseover="mostrar_python()">
+                        <a href="#exibir-texto"><img src="img/python (1).svg" alt="PYTHON"></a>
+                    </div>
+                    <div class="card" title="[Conhecimento em C: 80%" onmouseover="mostrar_c()">
+                        <a href="#exibir-texto"><img src="img/c.svg" alt="C"></a>
+                    </div>
+                    <div class="card" title="[Conhecimento em C++]: 80%" onmouseover="mostrar_ccc()">
+                        <a href="#exibir-texto"><img src="img/c++.svg" alt="C++"></a>
+                    </div>
+                   <div class="card" title="[Conhecimento em DELPHI]: 80%" onmouseover="mostrar_delphi()">
+                   <a href="#exibir-texto"><img src="img/delphi.svg" alt="DELPHI"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-    <script src="js/script.js"> </script>
-    
-<footer>
-  <p id="footer">Desenvolvido por: Kleber Belo © 2022</p>
-  <p id="amigo" onclick="mudar()">❤️</p>
-</footer>
+        <div class="titulo-projetos">
+            <div class="titulo-meio">
+                <p>PROJETOS DESENVOLVIDOS RECENTEMENTE </p>
+                <div class="mover">
+                    <div class="bola-online"></div>
+                </div>  
+            </div>
+        </div>
+        <div class="perfil-meio-meio">
+           <div class="area-cards-projetos">
+                <div class="area-projetos">
+                    <div class="card-projetos" >
+                        <div class="imagem-projeto">
+                            <img src="img/alpha.jpg" alt="Sistema de vendas de Lotes">
+                            <div class="texto-projetos">
+                                <h2>PROJETO 1</h2>
+                                <p>Sistema desenvolvido para uma empresa<br> de vendas de lotes</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-projetos" >
+                        <div class="imagem-projeto">
+                            <img src="img/sesi.jpg" alt="Sistema de guia rápido TI">
+                            <div class="texto-projetos">
+                                <h2>PROJETO 2</h2>
+                                <p>Sistema desenvolvido para uma empresa<br> de suporte ao negócio T.I</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-projetos" >
+                        <div class="imagem-projeto">
+                            <img src="img/registro.jpg" alt="Sistema de cadastro de informações">
+                            <div class="texto-projetos">
+                                <h2>PROJETO 3</h2>
+                                <p>Sistema desenvolvido para uma empresa<br> Juridica para cadastro de informações</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="roda-pé">
+            <footer class="footer-distributed">
+                <div class="footer-right">
+                    <a href="https://www.linkedin.com/in/kleber-belo-da-silva-1a693a224/"><img src="img/linkedin.svg" alt="Linkedin"></a>
+                    <a href="https://api.whatsapp.com/send?phone=5571983619345"><img src="img/whatsapp.svg" title="WhatsApp" alt="Whatsapp"></a>
+                </div>
+                <div class="footer-left">
+                    <p class="footer-links">
+                        <a class="link-1" href="#">INICIO</a>
+                    </p>
+                    <p>Desenvolvido por: Kleber Belo &copy; 2022</p>
+                </div>
+            </footer>
+        </div>
 </body>
 </html>
