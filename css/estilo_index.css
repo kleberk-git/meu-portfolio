@@ -1,261 +1,329 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Bem-Vindo(a), ao meu portfólio!</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='css/estilo_index.css'>
-    <link rel='stylesheet' type='text/css' media='screen' href='css/estilo_footer.css'>
-    <link rel='stylesheet' type='text/css' media='screen' href='css/medias_queries.css'>
-    <link rel='stylesheet' type='text/css' media='screen' href='css/estilo_janela_modal.css'>
-    <script src='js/script.js'></script>
-</head>
-<body>
-    <div id="abrirModalWindows" class="modal-windows">
-        <a href="#fechar" title="Fechar" class="fechar">x</a>
-        <div class="area-modal-windows">
-            <h2>Windows</h2><br>
-            <img src="img/windows.svg" alt="Windows" style="width:60px;">
-            <p>Meu primeiro contato com sistema operacional foi o bom e velho Windows XP. ❤️<br>
-            Hoje sou apto a trabalhar com todas versões do Windows Desktop e ou Servidores.</p>
-         </div>
-      </div>
-
-      <div id="abrirModalLinux" class="modal-linux">
-        <a href="#fechar" title="Fechar" class="fechar">x</a>
-        <div class="area-modal-linux">
-            <h2>Linux</h2><br>
-            <img src="img/linux.svg" alt="Linux" style="width:60px;">
-            <p>Quando me apronfundei em programação me tornei um entusiata Linux.<br>
-            Hoje tenho o Ubuntu como meu favorito, mas estou apto a trabalhar com qualquer versão Linux Desktop e ou Servidores.</p>
-         </div>
-      </div>
-
-      <div id="abrirModalManuntecao" class="modal-manutencao">
-        <a href="#fechar" title="Fechar" class="fechar">x</a>
-        <div class="area-modal-manutencao">
-            <h2>Manutenção e Serviços</h2><br>
-            <img src="img/manutecao.svg" alt="Manutenção e Serviços" style="width:60px;">
-            <p>Sou profissional da categoria Assistência Técnica, e faço serviços relacionados:<br>Celular, Computador desktop, Notebooks e Laptops, Tablet, Impressora, ...</p>
-         </div>
-      </div>
-
-      <div id="abrirModalReparo" class="modal-reparo">
-        <a href="#fechar" title="Fechar" class="fechar">x</a>
-        <div class="area-modal-reparo">
-            <h2>Hadwares e Softwares</h2><br>
-            <img src="img/reparo.svg" alt="Hadwares e Softwares" style="width:60px;">
-            <p>Desenvolvimento de Sistemas a parti de projetos e outras coisas mais que vier na cabeça ☕.<br>
-            Recuperação de Hadwares e dados. </p>
-         </div>
-      </div>
-
-      <div id="abrirModalSuporte" class="modal-suporte">
-        <a href="#fechar" title="Fechar" class="fechar">x</a>
-        <div class="area-modal-suporte">
-            <h2>Suporte | PRESENCIAL e ou REMOTO</h2><br>
-            <img src="img/suporte.svg" alt="Suporte ao Usuário" style="width:60px;">
-            <p>* Suporte ao Cliente *<br><br>
-            Hoje, amanhã e sempre!.</p>
-         </div>
-      </div>
-
-        <div class="perfil-topo">
-                <div class="imagem">
-                    <img src="img/eu.jpg" alt="Foto usuário">
-                    <p>Online</p>
-                </div>
-                <div class="info-perfil">
-                    <div class="area1">
-                        <h2>KLEBER BELO DA SILVA</h2>
-                        <p>DESENVOLVEDOR FULLSTACK</p>
-                        <div class="btn1">
-                            <a href="img/Kleber Belo - ATUALIZADO.pdf" download><button title="Baixar">MEU CURRÍCULO</button></a>
-                            <a href="https://api.whatsapp.com/send?phone=5571983619345"><button title="Me liga! 😎">CONTATO</button></a>
-                        </div>
-                    </div>
-                    <div class="area2">
-                        <div class="centralizar-texto">
-                            <p>[Situação]: Formando em Análise e Desenvolvimento de Sistemas</p><br>
-                            <p id="texto" title="Enviar e-mail">[E-mail]:<a href="mailto:klek58@hotmail.com?subject=Assunto&body=Digite sua mensagem">kleberk58@hotmail.com</p>
-                            <div class="icones">
-                                <a href="https://www.linkedin.com/in/kleber-belo-da-silva-1a693a224/"> <img src="img/linkedin.svg" title="Linkedin" alt="linkedin"></a>
-                                <a href="https://github.com/kleberk-git"><img src="img/github.svg" title="GitHub" alt="GitHub"></a>
-                                <a href="https://api.whatsapp.com/send?phone=5571983619345"><img src="img/whatsapp.svg" title="WhatsApp" alt="Whatsapp"></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-        </div>
-
-        <div class="titulo-area">
-            <div class="titulo-meio">
-                <p>Área de conhecimentos em linguagens de programação e T.I</p>
-            </div>
-        </div>
-        <div class="perfil-meio">  
-            <div class="area-cards-redondo">
-                <div class="area-redondo">
-                    <div id="windows" class="card-redondo" title="Windows, Desktop e Servidores." onclick="funcao1()">
-                       <a href="#abrirModalWindows"> <img src="img/windows.svg" alt="Windows"></a>
-                    </div>
-                    <div id="linux" class="card-redondo" title="Linux, Desktop e Servidores.">
-                        <a href="#abrirModalLinux"><img src="img/linux.svg" alt="Linux"></a>
-                    </div>
-                    <div id="manutencao" class="card-redondo">
-                        <a href="#abrirModalManuntecao"><img src="img/manutecao.svg" alt="Manutenção" title="Manutenção de Computadores."></a>
-                    </div>
-                    <div id="reparo" class="card-redondo">
-                        <a href="#abrirModalReparo"><img src="img/reparo.svg" alt="Reparo e Serviços" title="Hadwares e Softwares"></a> 
-                    </div>
-                    <div id="suporte" class="card-redondo">
-                        <a href="#abrirModalSuporte"><img src="img/suporte.svg" alt="Suporte ao Usuário" title="Suporte ao Usuário"></a> 
-                    </div>
-                </div>
-            </div>
-
-            <div class="texto-curto">
-                <div class="caixa-texto-curto">
-                    <a name="exibir-texto"><p id="texto-curto">* Status *</p></a>
-                </div>
-            </div>
-           <div class="area-cards">
-                <div class="area">
-                    <div class="card" title="[Conhecimento em HTML]: 100%" onmouseover="mostrar_html()">
-                        <img id="html" src="img/html5.svg" alt="HTML5" >
-                    </div>
-                    <div class="card" title="[Conhecimento em CSS]: 100%" onmouseover="mostrar_css()" >
-                        <img id="css" src="img/css.svg" alt="CSS3">
-                    </div>
-                    <div class="card" title="[Conhecimento em JS]: 80%" onmouseover="mostrar_js()">
-                        <a href="#exibir-texto"><img src="img/javascript.svg" alt="JAVASCRIPT"></a>
-                    </div>
-                    <div class="card" title="[Conhecimento em PHP]: 80%" onmouseover="mostrar_php()">
-                        <a href="#exibir-texto"><img src="img/php.svg" alt="PHP"></a>
-                    </div>
-                    <div class="card" title="[Conhecimento em MYSQL]: 95%" onmouseover="mostrar_mysql()">
-                        <a href="#exibir-texto"><img src="img/mysql.svg" alt="MYSQL"></a>
-                    </div>
-                    <div class="card" title="[Conhecimento em SQL]: 80%" onmouseover="mostrar_sql()">
-                        <a href="#exibir-texto"><img src="img/sql.svg" alt="SQL"></a>
-                    </div>
-                    <div class="card" title="[Conhecimento em PYTHON]: 80%" onmouseover="mostrar_python()">
-                        <a href="#exibir-texto"><img src="img/python (1).svg" alt="PYTHON"></a>
-                    </div>
-                    <div class="card" title="[Conhecimento em C: 80%" onmouseover="mostrar_c()">
-                        <a href="#exibir-texto"><img src="img/c.svg" alt="C"></a>
-                    </div>
-                    <div class="card" title="[Conhecimento em C++]: 80%" onmouseover="mostrar_ccc()">
-                        <a href="#exibir-texto"><img src="img/c++.svg" alt="C++"></a>
-                    </div>
-                   <div class="card" title="[Conhecimento em DELPHI]: 80%" onmouseover="mostrar_delphi()">
-                   <a href="#exibir-texto"><img src="img/delphi.svg" alt="DELPHI"></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="titulo-projetos">
-            <div class="titulo-meio">
-                <p>PROJETOS DESENVOLVIDOS RECENTEMENTE </p>
-                <div class="mover">
-                    <div class="bola-online"></div>
-                </div>  
-            </div>
-        </div>
-        <div class="perfil-meio-meio">
-           <div class="area-cards-projetos">
-                <div class="area-projetos">
-                    <div class="card-projetos" >
-                        <div class="imagem-projeto">
-                            <img src="img/alpha.jpg" alt="Sistema de vendas de Lotes">
-                            <div class="texto-projetos">
-                                <h2>ALPHA I</h2>
-                                <p id="posicao">Sistema desenvolvido para uma empresa<br> de vendas de lotes.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-projetos" >
-                        <div class="imagem-projeto">
-                            <img src="img/sesi.jpg" alt="Sistema de guia rápido TI">
-                            <div class="texto-projetos">
-                                <h2>GUIA RÁPIDO</h2>
-                                <p id="posicao">Sistema desenvolvido para uma empresa<br> de suporte ao negócio T.I.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-projetos" >
-                        <div class="imagem-projeto">
-                            <img src="img/registro.jpg" alt="Sistema de cadastro de informações">
-                            <div class="texto-projetos">
-                                <h2>RIJ+</h2>
-                                <p id="posicao">Sistema desenvolvido para uma empresa<br> Juridica para cadastro de informações.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-projetos" >
-                        <div class="imagem-projeto">
-                            <img src="img/criptografia.jpg" alt="Sistema de Criptografar e Descriptografar texto">
-                            <div class="texto-projetos">
-                                <h2>CRIPTOGRAFIA DE TEXTO</h2>
-                                <p id="posicao">Sistema desenvolvido com a intenção de Criptografar e Descriptografar texto.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-projetos" >
-                        <div class="imagem-projeto">
-                            <img src="img/jogo_da_forca.jpg" alt="Sistema de cadastro de informações">
-                            <div class="texto-projetos">
-                                <h2>Jogo da Forca</h2>
-                                <p id="posicao">O jogo da forca foi desenvolvido utilizando as seguintes tecnologias:<br>HTML, CSS E JAVASCRIPT.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-projetos" >
-                        <div class="imagem-projeto">
-                            <img src="img/lista_de_tarefa.jpg" alt="Sistema de cadastro de informações">
-                            <div class="texto-projetos">
-                                <h2>Lista de Anexos</h2>
-                                <p id="posicao">Sistema desenvolvido para leitura do texto em imagem e criação de lista para anexo.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-projetos" >
-                        <div class="imagem-projeto">
-                            <img src="img/gerador_cartao.jpg" alt="Sistema de cadastro de informações">
-                            <div class="texto-projetos">
-                                <h2>Gerador de Cartão</h2>
-                                <p id="posicao">Sistema desenvolvido para interagir com o usuário a parti das informações digitadas.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-projetos" >
-                        <div class="imagem-projeto">
-                            <img src="img/loja_virtual.jpg" alt="Sistema de cadastro de informações">
-                            <div class="texto-projetos">
-                                <h2>Loja Virtual</h2>
-                                <p id="posicao">Sistema desenvolvido para vendas de camisas para bloco de carnaval.<br><br></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="roda-pé">
-            <footer class="footer-distributed">
-                <div class="footer-right">
-                    <a href="https://www.linkedin.com/in/kleber-belo-da-silva-1a693a224/"><img src="img/linkedin.svg" alt="Linkedin"></a>
-                    <a href="https://api.whatsapp.com/send?phone=5571983619345"><img src="img/whatsapp.svg" title="WhatsApp" alt="Whatsapp"></a>
-                </div>
-                <div class="footer-left">
-                    <p class="footer-links">
-                        <a class="link-1" href="#">INICIO</a>
-                    </p>
-                    <p>Desenvolvido por: Kleber Belo &copy; 2022</p>
-                </div>
-            </footer>
-        </div>
-</body>
-</html>
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #292c2f;
+    font-family: 'Courier New', Courier, monospace;
+ 
+}
+.perfil-topo{
+    width: 100%;
+    height: 620px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: linear-gradient(119deg, rgba(2,0,36,1) 0%, rgba(4,158,218,1) 62%, rgba(0,212,255,1) 100%);
+    border-radius: 0px 0px 15px 15px;
+}
+.imagem{
+    width: 400px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("../img/satelite.svg");
+    background-size: 100%;
+    color: #fff;
+    border-radius: 0px 30px 0px;
+}
+.btn1{
+    width: 100px;
+}
+.imagem img{
+    width: 200px;
+    height: 200px;
+    margin: 8px;
+    border-radius: 50%;
+    border: 5px solid greenyellow;
+}
+.info-perfil{
+    width: 500px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+}
+.area1{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+.btn1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    width: 100%;
+    height: 100%;
+}
+.btn1 button{
+    width: 150px;
+    height: 35px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; 
+    background-color: greenyellow;
+}
+.btn1 button:hover{
+    background-color:  rgb(111, 180, 6);
+    color: #fff;
+    box-shadow: 5px 5px 5px black;
+    border: 2px solid #fff;
+}
+.area2{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+}
+.icones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.icones img{
+    margin: 5px;
+    width: 30px;
+    cursor: pointer; 
+}
+.icones img:hover{
+    width: 35px;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+.centralizar-texto{
+    display: flex;
+    justify-content: flex-start;
+    align-items: left;
+    flex-direction: column;
+    width: 350px;
+    height: 100%;
+}
+.perfil-meio{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #292c2f;
+}
+.titulo-area{
+    width:100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+.titulo-meio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+}
+.mover{
+    width: 100%;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bola-online{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: greenyellow;
+}
+.area-cards{
+    width: 100%;
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.area{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 650px;
+    height: 100%;
+}
+.texto-curto{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 100%;
+    height:100px;
+    color: #fff;  
+}
+.caixa-texto-curto{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    text-align: justify;
+    width: 400px;
+    height: 100%;
+    margin: 10px;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 140px;
+    height: 140px;
+    margin: 5px;
+    background-color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.card:hover{
+    box-shadow: 5px 5px 5px rgb(2, 247, 214);
+}
+.card:hover img{
+    width: 80px;
+}
+.card img{
+    width: 50px;
+    transition: width 1s;
+}
+.area-cards-redondo{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.area-redondo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+}
+.card-redondo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 5px;
+    border: 2px solid greenyellow;
+    border-radius:50%;
+    cursor: pointer;
+}
+.card-redondo:hover{
+    box-shadow: 5px 5px 5px rgb(2, 247, 214);
+}
+.card-redondo img{
+    width: 40px;
+}
+#windows{
+    background-color: #2995cc;
+}
+.perfil-meio-meio{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: linear-gradient(119deg, rgba(2,0,36,1) 0%, rgba(4,158,218,1) 62%, rgba(0,212,255,1) 100%);
+}
+.titulo-projetos{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.titulo-meio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:100%;
+}
+.area-cards-projetos{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.area-projetos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 400px;
+    margin: 50px;
+    overflow-x: hidden!important;
+ 
+ 
+}
+.area-projetos::-webkit-scrollbar {   
+    background: linear-gradient(119deg, rgba(2,0,36,1) 0%, rgba(4,158,218,1) 62%, rgba(0,212,255,1) 100%);
+    border-radius: 4px;
+}
+.area-projetos::-webkit-scrollbar-thumb{
+    background-color: #fff;
+    border-radius: 4px;
+}
+.card-projetos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer; 
+}
+.texto-projetos{
+    margin: 5px;
+    color: #fff;
+    text-align:center;
+}
+#posicao{
+    text-align: left;
+    margin: 10px;
+}
+.imagem-projeto{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.card-projetos img{
+    width: 60%;
+    height:70%;
+    border-radius: 5px;
+    border: 5px solid #fff;
+}
+.card-projetos img:hover{
+    box-shadow: 5px 5px 5px rgb(0, 12, 10);
+}
+.roda-pé{
+    width: 100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
