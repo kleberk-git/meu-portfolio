@@ -38,9 +38,14 @@ function mostrar_css() {
  function mostrar_delphi() {
     var texto_curto = document.getElementById('texto-curto').innerHTML="Embarcadero Delphi, anteriormente conhecido como CodeGear Delphi, Inprise Delphi e Borland Delphi, também conhecido como Delphi.";
  }
-  
 
-  
+ function mostrar_frase(){
+   var texto_curto = document.getElementById('feliz_natal').innerHTML="Feliz natal e boas<br> festas!!! 🥳"; 
+ }
+
+ function fechar_frase(){
+   var texto_curto = document.getElementById('feliz_natal').innerHTML=""; 
+ }
   
   
   
