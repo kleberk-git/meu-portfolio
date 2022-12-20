@@ -22,3 +22,10 @@
     height: 70px;
    }
 }
+
+@media (max-width: 500px){
+    .card-projetos img{
+        width: 75%;
+        height: 60%;
+       }
+}
