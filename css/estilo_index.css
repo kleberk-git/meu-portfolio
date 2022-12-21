@@ -43,7 +43,6 @@ body{
 .area-comemorativa{
     display: flex;
     position: fixed;
-    width: 100%;
 }
 .frase{
     display: flex;
