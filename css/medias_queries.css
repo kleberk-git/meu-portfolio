@@ -25,7 +25,8 @@
 
 @media (max-width: 500px){
     .card-projetos img{
-        width: 75%;
+        width: 200px;
         height: 60%;
        }
 }
+
