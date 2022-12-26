@@ -5,7 +5,6 @@
 body{
     background-color: #292c2f;
     font-family: 'Courier New', Courier, monospace;
- 
 }
 .perfil-topo{
     width: 100%;
@@ -43,28 +42,30 @@ body{
 .area-comemorativa{
     display: flex;
     position: fixed;
-    width: 65%;
+    margin-left: -55vw;
+
 }
 .frase{
     display: flex;
     text-align: center;
     width: 100%;
-    margin: 5px;
+    
 }
 .frase p{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 65px;
+    height: 60px;
     background-color: #fff;
     border-radius: 0 10px 10px 10px;
-    color: #2995cc;
+    color: #065983;
 }
 .area-comemorativa img{
-    width: 45px;
-    transition: transform 1s;
+    width: 40px;
+    transition: transform .5s;
     cursor: pointer;
-    margin: 5px;
+  
+
 }
 .area-comemorativa img:hover{
     transform: rotate(-30deg);
@@ -162,7 +163,9 @@ body{
     justify-content: center;
     align-items: center;
     width: 200px;
-    height: 50px;
+    height: 100%;
+    padding: 8px;
+    background-color: #292c2f;
 }
 .mover{
     width: 100%;
@@ -199,6 +202,21 @@ body{
     width: 100%;
     height:100px;
     color: #fff;  
+}
+
+#email{
+    color: #fff;
+     font-weight: bolder;  
+     text-decoration: none;         
+}
+
+#email:hover{
+    color:#fff;
+    text-shadow:
+    0px 0px 10px #0b07fa,
+    0px 0px 10px #0b07fa,
+    0px 0px 10px #f2f2f3,
+    0px 0px 10px #FFFFFF;
 }
 .caixa-texto-curto{
     display: flex;
