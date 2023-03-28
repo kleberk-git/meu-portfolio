@@ -69,16 +69,18 @@
                 </div>
                 <div class="info-perfil">
                     <div class="area1">
-                        <div class="area-comemorativa">
+                    <!--<div class="area-comemorativa">
                             <div class="img-comemora">
                                 <img  onclick="mostrar_frase()" src="img/img_2023.png">
                             </div>
-                            <div class="frase">
-                                <p onclick="" id=""></p>
-                            </div>
+                                <div class="frase">
+                            <p onclick="" id=""></p>
                         </div> 
+                    -->
                         <h2>KLEBER BELO DA SILVA</h2>
-                        <p>DESENVOLVEDOR FULLSTACK</p>
+                        <div class="sub-titulo">
+                            <p>Especialista em Tecnologia da Informação</p>
+                        </div>
                         <div class="btn1">
                             <a href="img/Kleber Belo - ATUALIZADO.pdf" download><button title="Baixar">MEU CURRÍCULO</button></a>
                             <a href="https://api.whatsapp.com/send?phone=5571983619345"><button title="Me liga! 😎">CONTATO</button></a>
@@ -86,12 +88,13 @@
                     </div>
                     <div class="area2">
                         <div class="centralizar-texto">
-                            <p>Formando em Análise e Desenvolvimento de Sistemas</p><br>
-                            <p id="texto" title="Enviar e-mail">[E-mail]:<a id="email" href="mailto:klek58@hotmail.com?subject=Assunto&body=Digite sua mensagem">kleberk58@hotmail.com</p>
+                            <p id="meu-texto" style="display:none;"></p><br>
                             <div class="icones">
+                                <a href="mailto:klek58@hotmail.com?subject=Assunto&body=Digite sua mensagem"> <img src="img/outlook.svg" title="Enviar e-mail" alt="Outlook"></a>
                                 <a href="https://www.linkedin.com/in/kleber-belo-da-silva-1a693a224/"> <img src="img/linkedin.svg" title="Linkedin" alt="linkedin"></a>
                                 <a href="https://github.com/kleberk-git"><img src="img/github.svg" title="GitHub" alt="GitHub"></a>
                                 <a href="https://api.whatsapp.com/send?phone=5571983619345"><img src="img/whatsapp.svg" title="WhatsApp" alt="Whatsapp"></a>
+                                <a href="#"> <img src="img/diploma.svg" id="exibir" title="Graduação" alt="Ensino" onclick="escreverTexto(); this.onclick=null;"></a>
                             </div>
                         </div>
                     </div>
@@ -187,7 +190,7 @@
                     </div>
                     <div class="card-projetos" >
                         <div class="imagem-projeto">
-                            <img src="img/sesi.jpg" alt="Sistema de guia rápido TI">
+                            <img src="img/sesi.jpg" alt="Sistema de guia rápido TI"></a>
                             <div class="texto-projetos">
                                 <h2>GUIA RÁPIDO</h2>
                                 <p id="posicao">Sistema desenvolvido para uma empresa<br> de suporte ao negócio T.I.</p>
@@ -207,16 +210,16 @@
                         <div class="imagem-projeto">
                             <img src="img/criptografia.jpg" alt="Sistema de Criptografar e Descriptografar texto">
                             <div class="texto-projetos">
-                                <h2>CRIPTOGRAFIA DE TEXTO</h2>
+                                <a href="https://kleberk-git.github.io/challenge-oracle-alura/index.html" target="_blank"><h2>CRIPTOGRAFIA DE TEXTO</h2></a>
                                 <p id="posicao">Sistema desenvolvido com a intenção de Criptografar e Descriptografar texto.</p>
                             </div>
                         </div>
                     </div>
                     <div class="card-projetos" >
                         <div class="imagem-projeto">
-                            <img src="img/jogo_da_forca.jpg" alt="Sistema de cadastro de informações">
+                           <img src="img/jogo_da_forca.jpg" alt="Sistema de cadastro de informações">
                             <div class="texto-projetos">
-                                <h2>Jogo da Forca</h2>
+                                <a href="https://kleberk-git.github.io/challenge-oracle-alura-jogo-forca/" target="_blank"><h2>Jogo da Forca</h2></a>
                                 <p id="posicao">O jogo da forca foi desenvolvido utilizando as seguintes tecnologias:<br>HTML, CSS E JAVASCRIPT.</p>
                             </div>
                         </div>
@@ -225,7 +228,7 @@
                         <div class="imagem-projeto">
                             <img src="img/lista_de_tarefa.jpg" alt="Sistema de cadastro de informações">
                             <div class="texto-projetos">
-                                <h2>Lista de Anexos</h2>
+                                <a href="https://kleberk-git.github.io/lista-de-tarefas/"><h2>Lista de Anexos</h2></a>
                                 <p id="posicao">Sistema desenvolvido para leitura do texto em imagem e criação de lista para anexo.</p>
                             </div>
                         </div>
@@ -234,7 +237,7 @@
                         <div class="imagem-projeto">
                             <img src="img/gerador_cartao.jpg" alt="Sistema de cadastro de informações">
                             <div class="texto-projetos">
-                                <h2>Gerador de Cartão</h2>
+                               <a href="https://kleberk-git.github.io/gerador-de-cartao/"> <h2>Gerador de Cartão</h2></a>
                                 <p id="posicao">Sistema desenvolvido para interagir com o usuário a parti das informações digitadas.</p>
                             </div>
                         </div>
@@ -243,7 +246,7 @@
                         <div class="imagem-projeto">
                             <img src="img/loja_virtual.jpg" alt="Sistema de cadastro de informações">
                             <div class="texto-projetos">
-                                <h2>Loja Virtual</h2>
+                                <a href="https://kleberk-git.github.io/loja-virtual/"><h2>Loja Virtual</h2></a>
                                 <p id="posicao">Sistema desenvolvido para vendas de camisas para bloco de carnaval.<br><br></p>
                             </div>
                         </div>
