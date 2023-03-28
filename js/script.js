@@ -39,14 +39,32 @@ function mostrar_css() {
     var texto_curto = document.getElementById('texto-curto').innerHTML="Embarcadero Delphi, anteriormente conhecido como CodeGear Delphi, Inprise Delphi e Borland Delphi, também conhecido como Delphi.";
  }
 
- function mostrar_frase(){
+  /*function mostrar_frase(){
    var texto_curto = document.getElementById('feliz_natal').innerHTML="Feliz natal e boas<br> festas!!! 🥳"; 
  }
 
- function fechar_frase(){
+   function fechar_frase(){
    var texto_curto = document.getElementById('feliz_natal').innerHTML=""; 
  }
+*/
+  const texto = "Formando em Análise e Desenvolvimento de Sistemas";
+  const velocidade = 100; // velocidade em milissegundos entre cada letra
+  let animacaoIniciada = false; // variável de controle
   
-  
-  
-  
+  function escreverTexto() {
+    if (!animacaoIniciada) { // verifica se a animação já foi iniciada
+      animacaoIniciada = true; // atualiza a variável de controle
+      
+      const elemento = document.querySelector("#meu-texto");
+      let i = 0;
+      const intervalo = setInterval(function() {
+        elemento.style.display = "block";
+        elemento.textContent += texto.charAt(i);
+        i++;
+        if (i > texto.length) {
+          clearInterval(intervalo);
+          animacaoIniciada = false; // reinicia a variável de controle
+        }
+      }, velocidade);
+    }
+  }
