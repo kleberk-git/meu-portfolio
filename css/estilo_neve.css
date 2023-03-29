@@ -1,11 +1,9 @@
- .perfil-meio {
-  /*-webkit-animation: snow 10s linear infinite;
+   /*.perfil-meio {
+  -webkit-animation: snow 10s linear infinite;
   -moz-animation: snow 10s linear infinite;
   -ms-animation: snow 10s linear infinite;
   animation: snow 10s linear infinite;
-  background-image: url('../img/'); url('../img/s2.png'), url('../img/s3.png');*/
-
-
+  background-image: url('../img/'); url('../img/s2.png'), url('../img/s3.png');
 }*/
 
 /*@keyframes snow {
